@@ -1,0 +1,21 @@
+/* Write your CSS here */
+.todos-item-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todos-item-title {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.todos-item-delete-button {
+  color: #ff0b37;
+  background-color: #ffffff;
+  border: 1px solid #ff0b37;
+  font-family: 'Roboto';
+  border-radius: 8px;
+  height: 28px;
+  width: 60px;
+}
